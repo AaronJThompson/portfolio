@@ -16,7 +16,7 @@ class Generic extends React.Component {
           <p>All of the skills I've accumulated over the years</p>
         </Header>
 
-        <NavBar items={['languages', 'frameworks']} names={['Languages', 'Frameworks']} />
+        <NavBar items={['languages', 'frameworks', 'workflows']} names={['Languages', 'Frameworks', 'Workflows']} />
         <div id="main">
           <section id="languages" className="main special reduced">
             <header>
@@ -69,6 +69,33 @@ class Generic extends React.Component {
               <li>
                 <span className="icon medium style5 fas fa-server"></span>
                 <h3>Express</h3>
+              </li>
+            </ul>
+          </section>
+          <section id="workflows" className="main special reduced">
+            <header>
+              <h2>Workflows and Methodologies</h2>
+            </header>
+            <ul className="languages">
+              <li>
+                <span className="icon medium style5 fab fa-node-js"></span>
+                <h3>REST API's</h3>
+              </li>
+              <li>
+                <span className="icon medium style5 fas fa-server"></span>
+                <h3>Authentication</h3>
+              </li>
+              <li>
+                <span className="icon medium style5 fas fa-server"></span>
+                <h3>Single Page Applications</h3>
+              </li>
+              <li>
+                <span className="icon medium style5 fab fa-react"></span>
+                <h3>Test Driven Development</h3>
+              </li>
+              <li>
+                <span className="icon medium style5 fas fa-code"></span>
+                <h3>Agile development</h3>
               </li>
             </ul>
           </section>
