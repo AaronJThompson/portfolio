@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import NavBar from '../components/NavBar'
 import Layout from '../components/layout'
 import Header from '../components/Header'
-import pic04 from '../assets/images/pic04.jpg'
 
 class Generic extends React.Component {
   render() {
@@ -20,7 +19,7 @@ class Generic extends React.Component {
         <NavBar items={['languages', 'frameworks']} names={['Languages', 'Frameworks']} />
         <div id="main">
           <section id="languages" className="main special reduced">
-            <header className="major">
+            <header>
               <h2>Languages</h2>
             </header>
             <ul className="languages">
@@ -41,10 +40,6 @@ class Generic extends React.Component {
                 <h3>SQL</h3>
               </li>
               <li>
-                <span className="icon medium fas fa-database"></span>
-                <h3>SQL</h3>
-              </li>
-              <li>
                 <span className="icon medium fab fa-python"></span>
                 <h3>Python</h3>
               </li>
@@ -55,7 +50,7 @@ class Generic extends React.Component {
             </ul>
           </section>
           <section id="frameworks" className="main special reduced">
-            <header className="major">
+            <header>
               <h2>Frameworks</h2>
             </header>
             <ul className="languages">
