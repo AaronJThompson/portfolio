@@ -191,6 +191,22 @@
 				clear: both;
 			}
 		}
+
+		&.vertical {
+			@include vendor('display', 'flex');
+			@include vendor('flex-direction', 'column');
+			@include vendor('align-items', 'center');
+
+			dt {
+				margin: 0;
+				margin-top: (_size(element-margin) * 0.2);
+			}
+
+			dd {
+				margin: 0;
+				margin-top: (_size(element-margin) * 0.1);
+			}
+		}
 	}
 
 	@mixin color-list($p: null) {

@@ -3,70 +3,36 @@ import React from 'react'
 
 const Footer = props => (
   <footer id="footer">
-    <section>
-      <h2>Aliquam sed mauris</h2>
-      <p>
-        Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat
-        magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras
-        aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae
-        tincidunt odio.
-      </p>
-      <ul className="actions">
-        <li>
-          <Link to="/generic" className="button">
-            Learn More
-          </Link>
-        </li>
-      </ul>
-    </section>
-    <section>
-      <h2>Etiam feugiat</h2>
-      <dl className="alt">
-        <dt>Address</dt>
-        <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+    <section className="contact">
+      <h2>Contact Me</h2>
+      <dl className="vertical">
+        <dt>Location</dt>
+        <dd>Berkshire, UK</dd>
         <dt>Phone</dt>
-        <dd>(000) 000-0000 x 0000</dd>
+        <dd>(+44) 07715569122</dd>
         <dt>Email</dt>
         <dd>
-          <a href="https://codebushi.com">information@untitled.tld</a>
+          <a href="mailto: aaronjthompson98@gmail.com">aaronjthompson98@gmail.com</a>
         </dd>
       </dl>
       <ul className="icons">
         <li>
           <a
-            href="https://twitter.com/huntaroSan"
-            className="icon fa-twitter alt"
-          >
-            <span className="label">Twitter</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://codebushi.com" className="icon fa-facebook alt">
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://codebushi.com" className="icon fa-instagram alt">
-            <span className="label">Instagram</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/codebushi/gatsby-starter-stellar"
-            className="icon fa-github alt"
+            href="https://github.com/AaronJThompson"
+            className="icon fab fa-github alt"
           >
             <span className="label">GitHub</span>
           </a>
         </li>
         <li>
-          <a href="https://codebushi.com" className="icon fa-dribbble alt">
-            <span className="label">Dribbble</span>
+          <a href="https://www.linkedin.com/in/aaron-j-t/" className="icon fab fa-linkedin alt">
+            <span className="label">LinkedIn</span>
           </a>
         </li>
       </ul>
     </section>
     <p className="copyright">
-      &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+      &copy; 2019 Aaron Thompson. <br /> Template: <a href="https://html5up.net">HTML5 UP</a>.
     </p>
   </footer>
 )
