@@ -16,28 +16,24 @@ class Generic extends React.Component {
           <p>All of the skills I've accumulated over the years</p>
         </Header>
         <div id="main">
-          <section id="languages" className="main special">
+          <section id="languages" className="main special skills">
             <header className="major">
               <h2>Languages</h2>
             </header>
-            <table className="alt">
-              <tbody>
-                <tr>
-                  <td>
-                    <span className="icon medium style5 fab fa-js-square"></span>
-                  </td>
-                  <td>
-                    <span className="icon medium style1 fa-code"></span>
-                  </td>
-                  <td>
-                    <span className="icon medium style1 fa-code"></span>
-                  </td>
-                  <td>
-                    <span className="icon medium style1 fa-code"></span>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <ul className="languages">
+              <li>
+                <span className="icon medium style5 fab fa-js-square"></span>
+              </li>
+              <li>
+                <span className="icon medium style2 fab fa-html5"></span>
+              </li>
+              <li>
+                <span className="icon medium style3 fab fa-css3"></span>
+              </li>
+              <li>
+                <span className="icon medium fas fa-database"></span>
+              </li>
+            </ul>
           </section>
         </div>
       </Layout>
