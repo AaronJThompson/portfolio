@@ -51,6 +51,15 @@
 			font-size: 1.35em;
 		}
 
+		&.home {
+			margin-bottom: 1rem;
+			@include breakpoint(medium) {
+				display: block;
+				margin-left: 1rem;
+				margin-right: 1rem;
+			}
+		}
+
 		&.disabled,
 		&:disabled {
 			@include vendor('pointer-events', 'none');
@@ -83,6 +92,15 @@
 			&.icon {
 				&:before {
 					color: _palette($p, fg-light);
+				}
+			}
+
+			&.home {
+				background-color: _palette(invert, bg);
+				color: _palette(invert, fg) !important;
+				&:hover {
+					background-color: transparent;
+					color: _palette(fg-bold) !important;
 				}
 			}
 

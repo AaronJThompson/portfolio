@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { Link } from 'gatsby'
 
 import NavBar from '../components/NavBar'
 import Layout from '../components/layout'
@@ -15,7 +16,9 @@ class Skills extends React.Component {
           <h1>My Skills</h1>
           <p>All of the skills I've accumulated over the years</p>
         </Header>
-
+        <Link to="/" className="button home">
+          Back Home
+        </Link>
         <NavBar items={['languages', 'frameworks', 'workflows', 'footer']} names={['Languages', 'Frameworks', 'Workflows', 'Contact Me']} />
         <div id="main">
           <section id="languages" className="main special reduced">
