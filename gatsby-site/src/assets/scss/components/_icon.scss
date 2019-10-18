@@ -90,6 +90,43 @@
 			color: _palette(accent5);
 		}
 
+		&.style-js {
+			color: _palette(languages, js);
+		}
+
+		&.style-html {
+			color: _palette(languages, html);
+		}
+
+		&.style-css {
+			color: _palette(languages, css);
+		}
+
+		&.style-python {
+			color: _palette(languages, python);
+		}
+
+		&.style-sql {
+			color: _palette(languages, sql);
+		}
+
+		&.style-lua {
+			color: _palette(languages, lua);
+		}
+
+		&.style-node {
+			color: _palette(languages, node);
+		}
+
+		&.style-react {
+			color: _palette(languages, react);
+		}
+
+		&.style-redux {
+			color: _palette(languages, redux);
+		}
+
+
 		@include breakpoint(xlarge) {
 			&.major {
 				&:before {
