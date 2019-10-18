@@ -40,20 +40,17 @@
 		}
 
 		&.medium {
-			border: solid 1px;
 			display: inline-block;
-			border-radius: 100%;
 			padding: 0.3em;
 			margin: 0 0 _size(element-margin) 0;
 			cursor: default;
 
 			&:before {
 				display: inline-block;
-				font-size: 4.25rem;
-				width: 2em;
-				height: 2em;
-				line-height: 2em;
-				border-radius: 100%;
+				font-size: 5.25rem;
+				width: 1.5em;
+				height: 1.5em;
+				line-height: 1.5em;
 				text-align: center;
 			}
 		}
