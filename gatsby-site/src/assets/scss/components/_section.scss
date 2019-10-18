@@ -15,7 +15,12 @@
 	#main {
 		section, article {
 			&.reduced {
-				@include padding(2em, 5em);
+				@include padding(2em, 4.5em);
+			}
+			@include breakpoint(small) {
+				&.reduced {
+					@include padding(2em, 2em);
+				}
 			}
 		}
 	}
