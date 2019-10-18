@@ -65,7 +65,8 @@
 				}
 				&.is-active {
 					a {
-						background-color: _palette(invert, bg);
+						@include vendor('background-image', ('linear-gradient(45deg, #{rgba(_palette(bg1), 0.6)} 15%, #{rgba(_palette(bg2), 0.6) 85%})'));
+						color: _palette(fg-bold);
 						box-shadow: none;
 					}
 				}

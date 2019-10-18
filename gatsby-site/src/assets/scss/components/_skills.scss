@@ -17,7 +17,7 @@
     
     border: double 2px transparent;
     border-radius: 1rem;
-    @include vendor('background-image', 'linear-gradient(white, white), linear-gradient(90deg, #{_palette(accent1)}, #{_palette(accent3)}, #{_palette(accent5)})');
+    @include vendor('background-image', 'linear-gradient(white, white), linear-gradient(90deg, #{rgba(_palette(accent1), 0.4)}, #{rgba(_palette(accent3), 0.4)}, #{rgba(_palette(accent5), 0.4)})');
     background-origin: border-box;
     background-clip: content-box, border-box;
 
