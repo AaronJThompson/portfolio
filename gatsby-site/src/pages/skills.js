@@ -5,7 +5,7 @@ import NavBar from '../components/NavBar'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 
-class Generic extends React.Component {
+class Skills extends React.Component {
   render() {
 
     return (
@@ -16,7 +16,7 @@ class Generic extends React.Component {
           <p>All of the skills I've accumulated over the years</p>
         </Header>
 
-        <NavBar items={['languages', 'frameworks', 'workflows']} names={['Languages', 'Frameworks', 'Workflows']} />
+        <NavBar items={['languages', 'frameworks', 'workflows', 'footer']} names={['Languages', 'Frameworks', 'Workflows', 'Contact Me']} />
         <div id="main">
           <section id="languages" className="main special reduced">
             <header>
@@ -109,4 +109,4 @@ class Generic extends React.Component {
   }
 }
 
-export default Generic
+export default Skills

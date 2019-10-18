@@ -5,24 +5,12 @@ import { Waypoint } from 'react-waypoint'
 import headshot from '../assets/images/headshot.png'
 import MainHeader from '../components/MainHeader'
 import Layout from '../components/layout'
-import Nav from '../components/Nav'
+import NavBar from '../components/NavBar'
 
 class Index extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {
-      stickyNav: false,
-    }
   }
-
-  _handleWaypointEnter = () => {
-    this.setState(() => ({ stickyNav: false }))
-  }
-
-  _handleWaypointLeave = () => {
-    this.setState(() => ({ stickyNav: true }))
-  }
-
   render() {
     return (
       <Layout>
@@ -30,11 +18,7 @@ class Index extends React.Component {
 
         <MainHeader />
 
-        <Waypoint
-          onEnter={this._handleWaypointEnter}
-          onLeave={this._handleWaypointLeave}
-        ></Waypoint>
-        <Nav sticky={this.state.stickyNav} />
+        <NavBar items={["intro", "first", "second", "cta", "footer"]} names={["Introduction", "First Section", "Second Section", "Get Started", "Contact Me"]} />
 
         <div id="main">
           <section id="intro" className="main">
