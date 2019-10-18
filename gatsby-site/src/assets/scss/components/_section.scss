@@ -12,6 +12,14 @@
 		}
 	}
 
+	#main {
+		section, article {
+			&.reduced {
+				@include padding(2em, 5em);
+			}
+		}
+	}
+
 	header {
 		&.major {
 			margin-bottom: (_size(element-margin) * 1.5);
