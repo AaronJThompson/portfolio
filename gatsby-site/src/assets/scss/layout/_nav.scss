@@ -18,7 +18,8 @@
 		width: _size(inner);
 		max-width: calc(100% - #{_size(element-margin) * 2});
 		padding: 1em;
-		background-color: _palette(invert, bg-alt);
+		background-color: white;
+		box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 		border-top-left-radius: _size(border-radius-main);
 		border-top-right-radius: _size(border-radius-main);
 		cursor: default;
@@ -77,7 +78,7 @@
 			position: fixed;
 			top: 0;
 			padding: 0.5em 1em;
-			background-color: transparentize(_palette(invert, bg-alt), 0.05);
+			box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: _misc(z-index-base);

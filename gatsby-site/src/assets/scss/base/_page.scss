@@ -30,6 +30,13 @@
 			'linear-gradient(45deg, #{_palette(bg1)} 15%, #{_palette(bg2) 85%})',
 		));
 		min-height: 100vh;
+		> * {
+			opacity: 1;
+			@include vendor('transition', (
+				'opacity 0.3s ease'
+			));
+			@include vendor('transition-delay', '0s');
+		}
 
 		// Prevents animation/transition "flicker" on page load.
 		// Automatically added/removed by js/main.js.
@@ -37,6 +44,7 @@
 				*, *:before, *:after {
 					@include vendor('animation', 'none !important');
 					@include vendor('transition', 'none !important');
+					opacity: 0;
 				}
 			}
 
