@@ -49,7 +49,7 @@ class Index extends React.Component {
                 </p>
                 <ul className="actions">
                   <li>
-                    <Link to="/generic" className="button">
+                    <Link to="/skills" className="button">
                       See my skills
                     </Link>
                   </li>
