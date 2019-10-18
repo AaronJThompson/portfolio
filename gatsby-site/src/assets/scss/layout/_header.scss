@@ -19,6 +19,25 @@
 			letter-spacing: _font(letter-spacing);
 		}
 
+		&.error {
+			@include padding(4em, 3em, (1em, 0, 0, 0));
+
+			h1 {
+				font-size: 8em;
+				letter-spacing: 0.6em;
+				margin-left: 0.6em;
+
+				@include breakpoint(small) {
+					font-size: 6em;
+					letter-spacing: 0.4em;
+					margin-left: 0.4em;
+				}
+			}
+			@include breakpoint(small) {
+				@include padding(4em, 1em);
+			}
+		}
+
 		&.alt {
 			@include padding(6em, 5em, (1em, 0, 0, 0));
 
