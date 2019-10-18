@@ -3,7 +3,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import pic01 from '../assets/images/pic01.jpg'
-import Header from '../components/Header'
+import MainHeader from '../components/MainHeader'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
 
@@ -28,7 +28,7 @@ class Index extends React.Component {
       <Layout>
         <Helmet title="Aaron Thompson" />
 
-        <Header />
+        <MainHeader />
 
         <Waypoint
           onEnter={this._handleWaypointEnter}
