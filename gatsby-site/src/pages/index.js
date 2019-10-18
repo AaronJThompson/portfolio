@@ -67,7 +67,7 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
+                <span className="icon major style1 fas fa-code"></span>
                 <h3>Ipsum consequat</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
@@ -75,7 +75,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
+                <span className="icon major style3 fas fa-copy"></span>
                 <h3>Amed sed feugiat</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
@@ -83,7 +83,7 @@ class Index extends React.Component {
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="icon major style5 fas fa-gem"></span>
                 <h3>Dolor nullam</h3>
                 <p>
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat

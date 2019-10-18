@@ -24,7 +24,7 @@ class Generic extends React.Component {
               <tbody>
                 <tr>
                   <td>
-                    <span className="icon medium style1 fa-code"></span>
+                    <span className="icon medium style5 fab fa-js-square"></span>
                   </td>
                   <td>
                     <span className="icon medium style1 fa-code"></span>
