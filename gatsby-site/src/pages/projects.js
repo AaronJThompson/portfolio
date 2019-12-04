@@ -18,6 +18,13 @@ export default function (props) {
         Back Home
       </Link>
       <NavBar items={['projects']} names={['Projects']} />
+      <div id="main">
+        <section id="intro" className="main special">
+            <header className="major">
+              <h2>Projects</h2>
+            </header>
+        </section>
+      </div>
     </Layout>
   )
 }
