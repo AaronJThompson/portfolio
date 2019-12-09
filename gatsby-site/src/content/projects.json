@@ -9,6 +9,10 @@
       {
         "title": "Introduction",
         "content": "Bravo is a platform for organizations and their members where they can share their appreciation for each other. We have provided both a slack application and web application to make it easy for users to receive and give praise, whatever their workflow. \n\n Our stack is Slack app running from the Slack API, Express and PostgreSQL on Node.JS for our backend, and ReactJS with Redux for our front end."
+      },
+      {
+        "title": "Team Workflow",
+        "content": "To organize our team workflow, we used Trello as our primary task management tool. \nWe followed a release cycle of a release every 2 weeks, with the aim to push major sections and numerous features each iteration.\n\n As a team, we worked really well when it came to segregating workflows and fixing problems with the proposed features. We had team meetings twice a day with 1 on 1’s once a week and quickly came to understand each other's workflows. We did have issues at the beginning with conflicting features and duplicated work, but overcame this with better organization and communication."
       }
     ]
   },
