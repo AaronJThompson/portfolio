@@ -7,6 +7,7 @@ export default function(props) {
   const [modalActive, setModalActive] = useState(false);
 
   const handleReadMore = (e) => {
+    e.preventDefault();
     setModalActive(true);
   }
 
