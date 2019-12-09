@@ -1,11 +1,12 @@
 .scroll-top{
   position: fixed;
-  top: 5vw;
+  bottom: 5vw;
   right: 5vw;
-  visibility: hidden; 
+  visibility: hidden;
+  display: none;
   opacity: 0;
   transition: visibility 0s linear 300ms, opacity 300ms;
-  z-index: 1;
+  z-index: 10;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
   background-color: _palette(invert, bg);
   color: _palette(invert, fg) !important;
@@ -20,5 +21,9 @@
   &:hover {
     background-color: _palette(invert, bg);
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  @include breakpoint(medium) {
+    display: initial;
   }
 }
