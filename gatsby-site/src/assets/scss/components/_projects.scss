@@ -59,6 +59,9 @@
         margin-right: auto;
       }
     }
+    @include breakpoint(medium) {
+      width: calc(#{(100%)} - #{_size(element-margin)});
+    }
 
   }
 }
