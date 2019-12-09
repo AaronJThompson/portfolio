@@ -9,8 +9,8 @@ export default function(props) {
         <div className="image" style={{backgroundImage: "url(" + img_src + ")"}} />
         <h2>{title}</h2>
       </header>
+      <p className="short_desc">{short_desc}</p>
       <footer>
-        <p className="short_desc">{short_desc}</p>
         <a href={git_link} target="_blank" className="button">
           Github
         </a>
