@@ -28,8 +28,7 @@ class Index extends React.Component {
                   <h2>Hey, I'm Aaron!</h2>
                 </header>
                 <p>
-                 I am a passionate software engineer thriving on product oriented and effcient solutions to problems in a range of industries. 
-                 Driven by the need to create bigger and better products that aid people in their everday lives.
+                  Passionate software engineer thriving on product oriented and efficient solutions to problems, that aid people in their everyday lives. Have been coding as a hobby since the age of 11 and have devoted the last 9 months to the Lambda School programme in order to rapidly grow my skills into a fully fledged developer. Now looking for my first paid role in software development.
                 </p>
                 <ul className="actions">
                   <li>
