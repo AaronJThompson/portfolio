@@ -1,0 +1,12 @@
+.scroll-top{
+  position: fixed;
+  bottom: 5vw;
+  right: 5vw;
+  opacity: 1;
+  transition: display 0.2s, opacity 0.2s;
+  
+  &.hidden{
+    display: none;
+    opacity: 0;
+  }
+}
