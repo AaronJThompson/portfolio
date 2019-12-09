@@ -5,6 +5,7 @@ import { Link } from 'gatsby'
 import NavBar from '../components/NavBar'
 import Layout from '../components/layout'
 import Header from '../components/Header'
+import Project from '../components/Project'
 
 export default function (props) {
   return(
