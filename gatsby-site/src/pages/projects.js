@@ -6,7 +6,8 @@ import NavBar from '../components/NavBar'
 import Layout from '../components/layout'
 import Header from '../components/Header'
 import Project from '../components/Project'
-import _projectList from '../content/projects.json';
+import ScrollToTop from '../components/ScollToTop'
+import _projectList from '../content/projects.json'
 
 export default function (props) {
   return (
@@ -20,6 +21,7 @@ export default function (props) {
         Back Home
       </Link>
       <NavBar items={['projects']} names={['Projects']} />
+      <ScrollToTop />
       <div id="main">
         <section id="projects" className="main special">
           <header className="major">
