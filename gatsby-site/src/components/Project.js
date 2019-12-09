@@ -29,6 +29,7 @@ export default function(props) {
     <>
     {
       article && article.length > 0 ? (<Modal active={modalActive} bgClick={handleModalClose}>
+        <span onClick={handleModalClose} className="close-modal">&#x2715;</span>
         <article className="project-article">
           <h1>{title}</h1>
           <div className="project-article-content">
