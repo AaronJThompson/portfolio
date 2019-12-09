@@ -20,7 +20,7 @@ export default function (props) {
       <Link to="/" className="button home">
         Back Home
       </Link>
-      <NavBar items={['projects']} names={['Projects']} />
+      <NavBar items={['projects', 'footer']} names={['Projects', 'Contact Me']} />
       <div id="main">
         <section id="projects" className="main special">
           <header className="major">
