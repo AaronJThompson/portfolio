@@ -19,7 +19,7 @@ export default function(props) {
     <>
       <Modal active={modalActive} bgClick={handleModalClose}>
         <article className="project-article">
-          <h2>{title}</h2>
+          <h1>{title}</h1>
           <div className="project-article-content">
             <header>
               <div className="image" style={{backgroundImage: "url(" + img_src + ")"}} />
