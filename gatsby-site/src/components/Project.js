@@ -1,16 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Modal from './Modal';
 
 export default function(props) {
   const { img_src, title, git_link, deploy_link, short_desc, long_desc} = props;
 
+  const [modalActive, setModalActive] = useState(false);
+
+  const handleReadMore = (e) => {
+    setModalActive(true);
+  }
+
+  const handleModalClose = (e) => {
+    setModalActive(false);
+  }
+
   return (
     <li className="project">
+      <Modal active={modalActive} bgClick={handleModalClose}>
+        <div>
+          
+        </div>
+      </Modal>
       <header>
         <div className="image" style={{backgroundImage: "url(" + img_src + ")"}} />
       </header>
       <footer>
         <h2>{title}</h2>
         <p className="short_desc">{short_desc}</p>
+        <a href="#" onClick={handleReadMore}>Read more...</a>
         <div className="links">
           {git_link ? <a href={git_link} target="_blank" className="button">
             <i className="fab fa-github" /> Github

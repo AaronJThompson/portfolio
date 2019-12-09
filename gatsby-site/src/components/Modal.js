@@ -1,11 +1,19 @@
 import React from 'react';
 
 const Modal = (props) => {
-  const { active, children } = props;
+  let { active, children, bgClick } = props;
+
+  if (bgClick === null) {
+    bgClick = (e) => {return};
+  }
+
+  const stopBubble = (e) => {
+    e.stopPropagation();
+  }
 
   return (
-    <section className={`modal${active ? " active" : ""}`}>
-      <div className="modal-content">
+    <section onClick={bgClick} className={`modal${active ? " active" : ""}`}>
+      <div onClick={stopBubble} className="modal-content">
         {children}
       </div>
     </section>
