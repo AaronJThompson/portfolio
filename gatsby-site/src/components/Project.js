@@ -11,12 +11,14 @@ export default function(props) {
       <footer>
         <h2>{title}</h2>
         <p className="short_desc">{short_desc}</p>
-        <a href={git_link} target="_blank" className="button">
-          Github
-        </a>
-        <a href={deploy_link} target="_blank" className="button">
-          Deployed
-        </a>
+        <div className="links">
+          <a href={git_link} target="_blank" className="button">
+            Github
+          </a>
+          <a href={deploy_link} target="_blank" className="button">
+            Deployed
+          </a>
+        </div>
       </footer>
     </li>
   )
