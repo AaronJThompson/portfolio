@@ -24,6 +24,9 @@ export default function (props) {
             <header className="major">
               <h2>Projects</h2>
             </header>
+            <ul className="projects">
+              <Project img_src="https://imgur.com/a/EYWzOA9" title="Bravo" git_link="https://github.com/bravolabs" deploy_link="https://saybravo.io/" short_dec="Bravo is an employee recognition and incentive platform aimed at small to medium-sized teams built in 8 weeks with 8 developers" long_dec="Bravo is an employee recognition and incentive platform aimed at small to medium-sized teams built in 8 weeks with 8 developers"/>
+            </ul>
         </section>
       </div>
     </Layout>
