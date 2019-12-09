@@ -51,7 +51,7 @@ export default function(props) {
         <footer>
           <h2>{title}</h2>
           <p className="short_desc">{short_desc}</p>
-          <a href="#" onClick={handleReadMore}>Read more...</a>
+          {article && article.length > 0 ? <a href="#" onClick={handleReadMore}>Read more...</a> : null}
           <div className="links">
             {git_link ? <a href={git_link} target="_blank" className="button">
               <i className="fab fa-github" /> Github
