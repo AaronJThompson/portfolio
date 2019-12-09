@@ -21,7 +21,7 @@ export default function (props) {
       </Link>
       <NavBar items={['projects']} names={['Projects']} />
       <div id="main">
-        <section id="intro" className="main special">
+        <section id="projects" className="main special">
           <header className="major">
             <h2>Projects</h2>
           </header>
