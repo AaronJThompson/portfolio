@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Scrollspy from 'react-scrollspy'
 import Scroll from './Scroll'
+import ScrollToTop from '../components/ScollToTop'
 import { Waypoint } from 'react-waypoint'
 
 const NavBar = (props) => {
@@ -15,6 +16,7 @@ const NavBar = (props) => {
 
   return (
     <>
+      <ScrollToTop />
       <Waypoint
         onEnter={handleWaypointEnter}
         onLeave={handleWaypointLeave}

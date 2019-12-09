@@ -21,7 +21,6 @@ export default function (props) {
         Back Home
       </Link>
       <NavBar items={['projects']} names={['Projects']} />
-      <ScrollToTop />
       <div id="main">
         <section id="projects" className="main special">
           <header className="major">
