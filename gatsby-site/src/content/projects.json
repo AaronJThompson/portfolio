@@ -4,7 +4,13 @@
     "title": "Bravo",
     "git_link": "https://github.com/bravolabs",
     "deploy_link": "https://saybravo.io/",
-    "short_desc": "Bravo is an employee recognition and incentive platform aimed at small to medium-sized teams built in 8 weeks with 8 developers"
+    "short_desc": "Bravo is an employee recognition and incentive platform aimed at small to medium-sized teams built in 8 weeks with 8 developers",
+    "article": [
+      {
+        "title": "Introduction",
+        "content": "Bravo is a platform for organizations and their members where they can share their appreciation for each other. We have provided both a slack application and web application to make it easy for users to receive and give praise, whatever their workflow. <br /> Our stack is Slack app running from the Slack API, Express and PostgreSQL on Node.JS for our backend, and ReactJS with Redux for our front end."
+      }
+    ]
   },
   {
     "img_src": "https://imgur.com/C6uYsJN.png",
