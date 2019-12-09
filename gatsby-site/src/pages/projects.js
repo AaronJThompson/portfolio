@@ -26,7 +26,7 @@ export default function (props) {
             </header>
             <ul className="projects">
               <Project img_src="https://imgur.com/FVK9QmN.png" title="Bravo" git_link="https://github.com/bravolabs" deploy_link="https://saybravo.io/" short_desc="Bravo is an employee recognition and incentive platform aimed at small to medium-sized teams built in 8 weeks with 8 developers" long_dec="Bravo is an employee recognition and incentive platform aimed at small to medium-sized teams built in 8 weeks with 8 developers"/>
-              <Project img_src="https://imgur.com/FVK9QmN.png" title="Bravo" git_link="https://github.com/bravolabs" deploy_link="https://saybravo.io/" short_desc="Bravo is an employee recognition and incentive platform aimed at small to medium-sized teams built in 8 weeks with 8 developers" long_dec="Bravo is an employee recognition and incentive platform aimed at small to medium-sized teams built in 8 weeks with 8 developers"/>
+              <Project img_src="https://imgur.com/C6uYsJN.png" title="Water My Plants" git_link="https://github.com/bw-water-my-plants" deploy_link="https://water-my-plants-554a4.firebaseapp.com/" short_desc="Water My Plants is a plant watering reminder and scheduler built by a team of 3 at Lambda School in 1 week" long_dec="Water My Plants is a plant watering reminder and scheduler built by a team of 3 at Lambda School in 1 week"/>
             </ul>
         </section>
       </div>
