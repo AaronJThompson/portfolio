@@ -7,10 +7,10 @@ export default function(props) {
     <li className="project">
       <header>
         <div className="image" style={{backgroundImage: "url(" + img_src + ")"}} />
-        <h2>{title}</h2>
       </header>
-      <p className="short_desc">{short_desc}</p>
       <footer>
+        <h2>{title}</h2>
+        <p className="short_desc">{short_desc}</p>
         <a href={git_link} target="_blank" className="button">
           Github
         </a>
