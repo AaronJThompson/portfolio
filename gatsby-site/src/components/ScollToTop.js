@@ -8,3 +8,5 @@ const ScrollToTop = (props) => {
     </Scroll>
   )
 }
+
+export default ScrollToTop;
