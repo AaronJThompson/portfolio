@@ -13,10 +13,10 @@ export default function(props) {
         <p className="short_desc">{short_desc}</p>
         <div className="links">
           {git_link ? <a href={git_link} target="_blank" className="button">
-            Github
+            <i className="fab fa-github" /> Github
           </a> : null}
           {deploy_link ? <a href={deploy_link} target="_blank" className="button">
-            Deployed
+            <i className="fas fa-rocket" /> Deployed
           </a> : null}
         </div>
       </footer>
