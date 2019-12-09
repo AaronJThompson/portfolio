@@ -1,16 +1,15 @@
 .modal {
   position: fixed;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
   background: rgba(0, 0, 0, 0.5);
-  overflow-x: hidden;
-  overflow-y: scroll;
   display: none;
-  
+
   &.active {
-    display: block;
+    display: initial;
   }
 
   .modal-content {

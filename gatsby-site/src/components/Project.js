@@ -15,28 +15,30 @@ export default function(props) {
   }
 
   return (
-    <li className="project">
+    <>
       <Modal active={modalActive} bgClick={handleModalClose}>
         <div>
-          
+
         </div>
       </Modal>
-      <header>
-        <div className="image" style={{backgroundImage: "url(" + img_src + ")"}} />
-      </header>
-      <footer>
-        <h2>{title}</h2>
-        <p className="short_desc">{short_desc}</p>
-        <a href="#" onClick={handleReadMore}>Read more...</a>
-        <div className="links">
-          {git_link ? <a href={git_link} target="_blank" className="button">
-            <i className="fab fa-github" /> Github
-          </a> : null}
-          {deploy_link ? <a href={deploy_link} target="_blank" className="button">
-            <i className="fas fa-rocket" /> Deployed
-          </a> : null}
-        </div>
-      </footer>
-    </li>
+      <li className="project">
+        <header>
+          <div className="image" style={{backgroundImage: "url(" + img_src + ")"}} />
+        </header>
+        <footer>
+          <h2>{title}</h2>
+          <p className="short_desc">{short_desc}</p>
+          <a href="#" onClick={handleReadMore}>Read more...</a>
+          <div className="links">
+            {git_link ? <a href={git_link} target="_blank" className="button">
+              <i className="fab fa-github" /> Github
+            </a> : null}
+            {deploy_link ? <a href={deploy_link} target="_blank" className="button">
+              <i className="fas fa-rocket" /> Deployed
+            </a> : null}
+          </div>
+        </footer>
+      </li>
+    </>
   )
 }
