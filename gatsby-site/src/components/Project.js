@@ -1,6 +1,16 @@
 import React, { useState } from 'react';
 import Modal from './Modal';
 
+const ArticleSection = (props) => {
+  const { title, content } = props
+  return (
+    <section>
+      {title ? <h2>{title}</h2> : null}
+      <p>{content}</p>
+    </section>
+  )
+}
+
 export default function(props) {
   const { img_src, title, git_link, deploy_link, short_desc, article} = props;
 
@@ -17,19 +27,23 @@ export default function(props) {
 
   return (
     <>
-      <Modal active={modalActive} bgClick={handleModalClose}>
+    {
+      article && article.length > 0 ? (<Modal active={modalActive} bgClick={handleModalClose}>
         <article className="project-article">
           <h1>{title}</h1>
           <div className="project-article-content">
             <header>
               <div className="image" style={{backgroundImage: "url(" + img_src + ")"}} />
             </header>
-            <section>
-
-            </section>
+            {
+              article.map(item => {
+                return <ArticleSection {...item} />
+              })
+            }
           </div>
         </article>
-      </Modal>
+      </Modal>) : null
+    }
       <li className="project">
         <header>
           <div className="image" style={{backgroundImage: "url(" + img_src + ")"}} />

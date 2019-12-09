@@ -8,7 +8,7 @@
     "article": [
       {
         "title": "Introduction",
-        "content": "Bravo is a platform for organizations and their members where they can share their appreciation for each other. We have provided both a slack application and web application to make it easy for users to receive and give praise, whatever their workflow. <br /> Our stack is Slack app running from the Slack API, Express and PostgreSQL on Node.JS for our backend, and ReactJS with Redux for our front end."
+        "content": "Bravo is a platform for organizations and their members where they can share their appreciation for each other. We have provided both a slack application and web application to make it easy for users to receive and give praise, whatever their workflow. \n\n Our stack is Slack app running from the Slack API, Express and PostgreSQL on Node.JS for our backend, and ReactJS with Redux for our front end."
       }
     ]
   },

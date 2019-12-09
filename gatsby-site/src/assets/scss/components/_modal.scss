@@ -8,17 +8,14 @@
   background: rgba(0, 0, 0, 0.5);
   display: none;
   overflow-x: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   &.active {
-    display: initial;
+    display: flex;
   }
 
   .modal-content {
-    position:fixed;
-    width: 80%;
-    height: auto;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
   }
 }
