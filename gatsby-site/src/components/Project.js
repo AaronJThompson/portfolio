@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Modal from './Modal';
 
 export default function(props) {
-  const { img_src, title, git_link, deploy_link, short_desc, long_desc} = props;
+  const { img_src, title, git_link, deploy_link, short_desc, article} = props;
 
   const [modalActive, setModalActive] = useState(false);
 
@@ -18,9 +18,17 @@ export default function(props) {
   return (
     <>
       <Modal active={modalActive} bgClick={handleModalClose}>
-        <div>
+        <article className="project-article">
+          <h2>{title}</h2>
+          <div className="project-article-content">
+            <header>
+              <div className="image" style={{backgroundImage: "url(" + img_src + ")"}} />
+            </header>
+            <section>
 
-        </div>
+            </section>
+          </div>
+        </article>
       </Modal>
       <li className="project">
         <header>
