@@ -6,4 +6,21 @@
   margin: 0 0 _size(element-margin) (_size(element-margin) * -1);
   padding: 0;
   list-style: none;
+
+  li {
+    width: calc(#{(100% / 3)} - #{_size(element-margin)});
+    margin-left: _size(element-margin);
+    margin-top: (_size(element-margin));
+    padding: 0;
+    
+    border: 2px solid _palette(invert, border2-bg);
+    border-radius: 1rem;
+
+    h3 {
+      font-size: 1.2rem;
+      max-width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
