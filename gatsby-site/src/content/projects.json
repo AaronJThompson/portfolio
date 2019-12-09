@@ -25,5 +25,11 @@
     "title": "[ARRAY]",
     "git_link": "https://github.com/arrayhackathon2019",
     "short_desc": "Array is a social media platform for software engineers and coders alike. This was a concept project built in 48 hours during the Lambda Hackathon with a team of 5 developers"
+  },
+  {
+    "img_src": "https://imgur.com/gx6TFJP.png",
+    "title": "Treasure Hunt",
+    "git_link": "https://github.com/cseu2bw/CS-Build-Week-2",
+    "short_desc": "As part of our last build week during the Computer Science module, we were tasked to create a program to traverse and complete actions in a treasure hunt game"
   }
 ]
