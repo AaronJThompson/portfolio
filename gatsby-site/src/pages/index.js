@@ -49,6 +49,9 @@ class Index extends React.Component {
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
                   consequat tempus veroeros sed consequat.
                 </p>
+                <Link to="/skills" className="button">
+                    See my skills
+                </Link>
               </li>
               <li>
                 <span className="icon major style3 fas fa-rocket"></span>
@@ -57,6 +60,9 @@ class Index extends React.Component {
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
                   consequat tempus veroeros sed consequat.
                 </p>
+                <Link to="/projects" className="button">
+                    See my projects
+                </Link>
               </li>
               <li>
                 <span className="icon major style5 fas fa-file"></span>
@@ -65,17 +71,11 @@ class Index extends React.Component {
                   Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
                   consequat tempus veroeros sed consequat.
                 </p>
+                <a target="_blank" href="https://drive.google.com/uc?export=download&id=18AY38h8iVbWtYXAEqbEAg7zu2ypduXkj" className="button">
+                <i class="fas fa-cloud-download-alt" /> Download
+                </a>
               </li>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
           </section>
 
           <section id="second" className="main special">
