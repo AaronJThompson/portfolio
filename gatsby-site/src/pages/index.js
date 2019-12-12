@@ -18,7 +18,7 @@ class Index extends React.Component {
 
         <MainHeader />
 
-        <NavBar items={["intro", "first", "second", "cta", "footer"]} names={["Introduction", "First Section", "Second Section", "Get Started", "Contact Me"]} />
+        <NavBar items={["intro", "work", "second", "cta", "footer"]} names={["Introduction", "My Work", "Second Section", "Get Started", "Contact Me"]} />
 
         <div id="main">
           <section id="intro" className="main">
@@ -37,7 +37,7 @@ class Index extends React.Component {
             </div>
           </section>
 
-          <section id="first" className="main special">
+          <section id="work" className="main special">
             <header className="major">
               <h2>My Work</h2>
             </header>
