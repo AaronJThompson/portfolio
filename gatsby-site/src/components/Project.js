@@ -4,7 +4,10 @@ import Modal from './Modal';
 
 const ArticleSection = (props) => {
   const { content } = props
-  let md = new Remarkable();
+  let md = new Remarkable({
+    breaks: true,
+    linkTarget: "_blank"
+  });
   let markdown = md.render(content);
   return (
     <section dangerouslySetInnerHTML={{__html:markdown}} />
