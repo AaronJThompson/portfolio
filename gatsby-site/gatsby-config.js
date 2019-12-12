@@ -1,16 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Stellar by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Stellar by HTML5 UP"
+    title: "Aaron Thompson - portfolio",
+    author: "Aaron Thompson",
+    description: "Aaron Thompson's professional portfolio"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Aaron Thompson - portfolio',
+        short_name: "Aaron's portfolio",
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
