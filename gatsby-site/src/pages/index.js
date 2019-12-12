@@ -46,8 +46,7 @@ class Index extends React.Component {
                 <span className="icon major style1 fas fa-code"></span>
                 <h3>Skills</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Over the years I have accrued many skills, both in my own time and at Lambda School. See what I have learned and what I can bring to your company...
                 </p>
                 <Link to="/skills" className="button">
                     See my skills
@@ -57,8 +56,7 @@ class Index extends React.Component {
                 <span className="icon major style3 fas fa-rocket"></span>
                 <h3>Projects</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  I have completed many projects to a professional standard. Some lasting months, others lasting just days. See the full details and their stories...
                 </p>
                 <Link to="/projects" className="button">
                     See my projects
@@ -68,8 +66,7 @@ class Index extends React.Component {
                 <span className="icon major style5 fas fa-file"></span>
                 <h3>CV/Resume</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  Donwload my latest resume here...
                 </p>
                 <a target="_blank" href="https://drive.google.com/uc?export=download&id=18AY38h8iVbWtYXAEqbEAg7zu2ypduXkj" className="button">
                 <i class="fas fa-cloud-download-alt" /> Download
