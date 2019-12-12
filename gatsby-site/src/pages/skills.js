@@ -51,6 +51,21 @@ class Skills extends React.Component {
                 <h3>Lua/LuaJIT</h3>
               </li>
             </ul>
+            <h3>intermediate Languages</h3>
+            <ul className="languages">
+              <li>
+                <span className="icon medium style-csharp fas fa-hashtag"></span>
+                <h3>C#</h3>
+              </li>
+              <li>
+                <span className="icon medium style-java fab fa-java"></span>
+                <h3>Java</h3>
+              </li>
+              <li>
+                <span className="icon medium style-cplusplus fas fa-code"></span>
+                <h3>C/C++</h3>
+              </li>
+            </ul>
           </section>
           <section id="frameworks" className="main special reduced">
             <header>

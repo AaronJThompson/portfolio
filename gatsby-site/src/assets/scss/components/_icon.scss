@@ -126,6 +126,18 @@
 			color: _palette(languages, redux);
 		}
 
+		&.style-csharp {
+			color: _palette(languages, csharp);
+		}
+
+		&.style-cplusplus {
+			color: _palette(languages, cplusplus);
+		}
+
+		&.style-java {
+			color: _palette(languages, java);
+		}
+
 
 		@include breakpoint(xlarge) {
 			&.major {
