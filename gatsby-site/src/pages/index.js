@@ -30,13 +30,6 @@ class Index extends React.Component {
                 <p>
                   Passionate software engineer thriving on product oriented and efficient solutions to problems, that aid people in their everyday lives. Have been coding as a hobby since the age of 11 and have devoted the last 9 months to the Lambda School programme in order to rapidly grow my skills into a fully fledged developer. Now looking for my first paid role in software development.
                 </p>
-                <ul className="actions">
-                  <li>
-                    <Link to="/skills" className="button">
-                      See my skills
-                    </Link>
-                  </li>
-                </ul>
               </div>
               <span className="image">
                 <img src={headshot} alt="" />
