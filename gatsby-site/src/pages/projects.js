@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 
 import NavBar from '../components/NavBar'
 import Layout from '../components/layout'
@@ -9,7 +9,7 @@ import Project from '../components/Project'
 import ScrollToTop from '../components/ScollToTop'
 import _projectList from '../content/projects.json'
 
-export default function (props) {
+export default function ({ data }) {
   return (
     <Layout>
       <Helmet title="Aaron Thompson - Projects" />
@@ -36,3 +36,16 @@ export default function (props) {
     </Layout>
   )
 }
+
+export const query = graphql`
+  query {
+    projects {
+      title
+      img_src
+      git_link
+      deploy_link
+      short_desc
+      article
+    }
+  }
+`
