@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
+import { Remarkable } from 'remarkable'
 import Modal from './Modal';
 
 const ArticleSection = (props) => {
-  const { title, content } = props
+  const { content } = props
+  let md = new Remarkable();
+  let markdown = md.render(content);
   return (
-    <section>
-      {title ? <h2>{title}</h2> : null}
-      <p>{content}</p>
-    </section>
+    <section dangerouslySetInnerHTML={{__html:markdown}} />
   )
 }
 
@@ -36,11 +36,7 @@ export default function(props) {
             <header>
               <div className="image" style={{backgroundImage: "url(" + img_src + ")"}} />
             </header>
-            {
-              article.map(item => {
-                return <ArticleSection {...item} />
-              })
-            }
+            <ArticleSection content={article} />
           </div>
         </article>
       </Modal>) : null
