@@ -53,7 +53,7 @@ class Index extends React.Component {
                 </Link>
               </li>
               <li>
-                <span className="icon major style3 fas fa-rocket"></span>
+                <span className="icon major style2 fas fa-rocket"></span>
                 <h3>Projects</h3>
                 <p>
                   I have completed many projects to a professional standard. Some lasting months, others lasting just days. See the full details and their stories...
@@ -63,7 +63,7 @@ class Index extends React.Component {
                 </Link>
               </li>
               <li>
-                <span className="icon major style5 fas fa-file"></span>
+                <span className="icon major style3 fas fa-file"></span>
                 <h3>CV/Resume</h3>
                 <p>
                   Donwload my latest resume here...
