@@ -7,6 +7,10 @@
   padding: 0;
   list-style: none;
 
+  a {
+    color: darken(_palette(accent), 10%);
+  }
+
   .close-modal {
     color: white;
     position: absolute;
@@ -114,10 +118,6 @@
       @include vendor('align-items', 'center');
 
       padding: 1.2rem;
-
-      > a {
-        color: darken(_palette(accent), 10%);
-      }
 
       .links {
         @include vendor('flex', '1');
