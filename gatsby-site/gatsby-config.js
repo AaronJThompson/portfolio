@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Aaron Thompson - portfolio",
+    title: "Aaron Thompson - Portfolio",
     author: "Aaron Thompson",
     description: "Aaron Thompson's professional portfolio"
   },
@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Aaron Thompson - portfolio',
-        short_name: "Aaron's portfolio",
+        name: 'Aaron Thompson - Portfolio',
+        short_name: "Aaron's Portfolio",
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
