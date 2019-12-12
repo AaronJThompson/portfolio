@@ -12,7 +12,8 @@
     "title": "Water My Plants",
     "git_link": "https://github.com/bw-water-my-plants",
     "deploy_link": "https://water-my-plants-554a4.firebaseapp.com/",
-    "short_desc": "Water My Plants is a plant watering reminder and scheduler built by a team of 3 at Lambda School in 1 week"
+    "short_desc": "Water My Plants is a plant watering reminder and scheduler built by a team of 3 at Lambda School in 1 week",
+    "article": "## Introduction \n Building a schedule around ensuring that all your plants are watered is actually pretty difficult. Water My Plants helps to solve those problems by providing and easy to use interface for creating a plant watering schedule that will remind users to water their plants on a regular basis."
   },
   {
     "img_src": "https://imgur.com/NjLjiJS.png",
