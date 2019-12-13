@@ -18,6 +18,17 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        // This type will contain remote schema Query type
+        typeName: "Portfolio",
+        // This is the field under which it's accessible
+        fieldName: "portfolio",
+        // URL to query from
+        url: "http://aaronjthompson.com:4000/graphql",
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],

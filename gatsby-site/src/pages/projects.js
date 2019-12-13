@@ -7,7 +7,6 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Project from '../components/Project'
 import ScrollToTop from '../components/ScollToTop'
-import _projectList from '../content/projects.json'
 
 export default function ({ data }) {
   return (
@@ -27,7 +26,7 @@ export default function ({ data }) {
             <h2>Projects</h2>
           </header>
           <ul className="projects">
-            {_projectList.map(proj => {
+            {data.portfolio.projects.map(proj => {
               return <Project {...proj} />
             })}
           </ul>
@@ -38,7 +37,8 @@ export default function ({ data }) {
 }
 
 export const query = graphql`
-  query {
+{
+  portfolio {
     projects {
       title
       img_src
@@ -48,4 +48,5 @@ export const query = graphql`
       article
     }
   }
+}
 `
