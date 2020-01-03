@@ -27,7 +27,7 @@ const NavBar = (props) => {
                 props.items.map((item, idx) => {
                   return (
                     <li key={item}>
-                      <Scroll type="id" element={item}>
+                      <Scroll type="id" element={item} offset={-50}>
                           <a href="#">{props.names[idx]}</a>
                       </Scroll>
                     </li>

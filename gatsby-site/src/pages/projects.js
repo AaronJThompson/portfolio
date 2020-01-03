@@ -42,7 +42,7 @@ export const query = graphql`
     projects {
       title
       img_src
-      git_link
+      git_link  
       deploy_link
       short_desc
       article
